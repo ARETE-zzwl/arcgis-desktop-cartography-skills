@@ -1,0 +1,243 @@
+{
+  "date": "2026-09-30",
+  "papers": 30,
+  "software_evidence": {
+    "direct": 28,
+    "limited": 2
+  },
+  "tests": {
+    "passed": 12,
+    "failed": 0,
+    "skill_structure": "valid"
+  },
+  "native_relocation": {
+    "layer_files": 41,
+    "maps": [
+      {
+        "layers": 9,
+        "frames": 2,
+        "id": "M01"
+      },
+      {
+        "layers": 4,
+        "frames": 2,
+        "id": "M02"
+      },
+      {
+        "layers": 3,
+        "frames": 1,
+        "id": "M03"
+      },
+      {
+        "layers": 4,
+        "frames": 2,
+        "id": "M04"
+      },
+      {
+        "layers": 3,
+        "frames": 1,
+        "id": "M05"
+      },
+      {
+        "layers": 2,
+        "frames": 1,
+        "id": "M06"
+      },
+      {
+        "layers": 2,
+        "frames": 1,
+        "id": "M07"
+      },
+      {
+        "layers": 8,
+        "frames": 4,
+        "id": "M08"
+      },
+      {
+        "layers": 2,
+        "frames": 1,
+        "id": "M09"
+      },
+      {
+        "layers": 4,
+        "frames": 2,
+        "id": "M10"
+      }
+    ],
+    "relative_paths": true,
+    "external_sources": [],
+    "broken_sources": []
+  },
+  "pixel_comparison": [
+    {
+      "id": "M01",
+      "dimensions": [
+        3509,
+        2481
+      ],
+      "differing_pixels": 0
+    },
+    {
+      "id": "M02",
+      "dimensions": [
+        3509,
+        2481
+      ],
+      "differing_pixels": 0
+    },
+    {
+      "id": "M03",
+      "dimensions": [
+        3509,
+        2481
+      ],
+      "differing_pixels": 0
+    },
+    {
+      "id": "M04",
+      "dimensions": [
+        3509,
+        2481
+      ],
+      "differing_pixels": 0
+    },
+    {
+      "id": "M05",
+      "dimensions": [
+        3509,
+        2481
+      ],
+      "differing_pixels": 0
+    },
+    {
+      "id": "M06",
+      "dimensions": [
+        3509,
+        2481
+      ],
+      "differing_pixels": 0
+    },
+    {
+      "id": "M07",
+      "dimensions": [
+        3509,
+        2481
+      ],
+      "differing_pixels": 0
+    },
+    {
+      "id": "M08",
+      "dimensions": [
+        3509,
+        2481
+      ],
+      "differing_pixels": 0
+    },
+    {
+      "id": "M09",
+      "dimensions": [
+        3509,
+        2481
+      ],
+      "differing_pixels": 0
+    },
+    {
+      "id": "M10",
+      "dimensions": [
+        3509,
+        2481
+      ],
+      "differing_pixels": 0
+    }
+  ],
+  "release_audit": {
+    "files": 170,
+    "privacy_findings": [],
+    "broken_local_links": [],
+    "pdf_checks": [
+      {
+        "file": "arcgis-desktop-cartography/assets/native-atlas.pdf",
+        "pages": 10,
+        "font_count": 20,
+        "all_fonts_embedded": true,
+        "attachments": 0
+      },
+      {
+        "file": "arcgis-desktop-cartography/assets/synthetic/maps/M01/M01.pdf",
+        "pages": 1,
+        "font_count": 2,
+        "all_fonts_embedded": true,
+        "attachments": 0
+      },
+      {
+        "file": "arcgis-desktop-cartography/assets/synthetic/maps/M02/M02.pdf",
+        "pages": 1,
+        "font_count": 2,
+        "all_fonts_embedded": true,
+        "attachments": 0
+      },
+      {
+        "file": "arcgis-desktop-cartography/assets/synthetic/maps/M03/M03.pdf",
+        "pages": 1,
+        "font_count": 2,
+        "all_fonts_embedded": true,
+        "attachments": 0
+      },
+      {
+        "file": "arcgis-desktop-cartography/assets/synthetic/maps/M04/M04.pdf",
+        "pages": 1,
+        "font_count": 2,
+        "all_fonts_embedded": true,
+        "attachments": 0
+      },
+      {
+        "file": "arcgis-desktop-cartography/assets/synthetic/maps/M05/M05.pdf",
+        "pages": 1,
+        "font_count": 2,
+        "all_fonts_embedded": true,
+        "attachments": 0
+      },
+      {
+        "file": "arcgis-desktop-cartography/assets/synthetic/maps/M06/M06.pdf",
+        "pages": 1,
+        "font_count": 2,
+        "all_fonts_embedded": true,
+        "attachments": 0
+      },
+      {
+        "file": "arcgis-desktop-cartography/assets/synthetic/maps/M07/M07.pdf",
+        "pages": 1,
+        "font_count": 2,
+        "all_fonts_embedded": true,
+        "attachments": 0
+      },
+      {
+        "file": "arcgis-desktop-cartography/assets/synthetic/maps/M08/M08.pdf",
+        "pages": 1,
+        "font_count": 2,
+        "all_fonts_embedded": true,
+        "attachments": 0
+      },
+      {
+        "file": "arcgis-desktop-cartography/assets/synthetic/maps/M09/M09.pdf",
+        "pages": 1,
+        "font_count": 2,
+        "all_fonts_embedded": true,
+        "attachments": 0
+      },
+      {
+        "file": "arcgis-desktop-cartography/assets/synthetic/maps/M10/M10.pdf",
+        "pages": 1,
+        "font_count": 2,
+        "all_fonts_embedded": true,
+        "attachments": 0
+      }
+    ]
+  },
+  "visual_review": "10 PNG maps and PDF spot checks reviewed",
+  "limits": [
+    "Synthetic design examples, not reproduced research results",
+    "ASCII labels tested; Chinese code-page conversion unverified",
+    "Legacy dataset Describe/GetCount hang remains unresolved"
+  ]
+}

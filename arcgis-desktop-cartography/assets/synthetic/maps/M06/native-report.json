@@ -1,0 +1,56 @@
+{
+  "synthetic": true, 
+  "panels": [
+    {
+      "layers": [
+        {
+          "name": "boundary", 
+          "file": "panel1_layer1.lyr"
+        }, 
+        {
+          "name": "overlap", 
+          "file": "panel1_layer2.lyr"
+        }
+      ], 
+      "scale_km": 10, 
+      "palette": null, 
+      "limits": null, 
+      "epsg": 32650, 
+      "label": "Illustrative hazard overlap", 
+      "frame_mm": [
+        18, 
+        33, 
+        165, 
+        137
+      ], 
+      "extent": [
+        463868.6131386861, 
+        3870000.0, 
+        536131.3868613138, 
+        3930000.0
+      ], 
+      "scale_bar_mm": 22.833333333333332
+    }
+  ], 
+  "map_id": "M06", 
+  "reopened_frames": [
+    {
+      "epsg": 32650, 
+      "name": "Illustrative hazard overlap", 
+      "extent": [
+        463868.6131386861, 
+        3870000.0, 
+        536131.3868613138, 
+        3930000.0
+      ]
+    }
+  ], 
+  "broken_sources": [], 
+  "papers": [
+    "A21"
+  ], 
+  "visual_review": "Required separately", 
+  "relative_paths": true, 
+  "dpi": 300, 
+  "software": "ArcMap 10.2"
+}

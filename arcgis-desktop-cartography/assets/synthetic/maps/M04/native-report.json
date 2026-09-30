@@ -1,0 +1,97 @@
+{
+  "synthetic": true, 
+  "panels": [
+    {
+      "layers": [
+        {
+          "name": "boundary", 
+          "file": "panel1_layer1.lyr"
+        }, 
+        {
+          "name": "cover", 
+          "file": "panel1_layer2.lyr"
+        }
+      ], 
+      "scale_km": 10, 
+      "palette": null, 
+      "limits": null, 
+      "epsg": 32650, 
+      "label": "a  Scenario A", 
+      "frame_mm": [
+        14, 
+        49, 
+        124, 
+        118
+      ], 
+      "extent": [
+        468474.57627118647, 
+        3870000.0, 
+        531525.4237288135, 
+        3930000.0
+      ], 
+      "scale_bar_mm": 19.666666666666668
+    }, 
+    {
+      "layers": [
+        {
+          "name": "boundary", 
+          "file": "panel2_layer1.lyr"
+        }, 
+        {
+          "name": "cover_late", 
+          "file": "panel2_layer2.lyr"
+        }
+      ], 
+      "scale_km": 10, 
+      "palette": null, 
+      "limits": null, 
+      "epsg": 32650, 
+      "label": "b  Scenario B", 
+      "frame_mm": [
+        159, 
+        49, 
+        124, 
+        118
+      ], 
+      "extent": [
+        468474.57627118647, 
+        3870000.0, 
+        531525.4237288135, 
+        3930000.0
+      ], 
+      "scale_bar_mm": 19.666666666666668
+    }
+  ], 
+  "map_id": "M04", 
+  "reopened_frames": [
+    {
+      "epsg": 32650, 
+      "name": "b  Scenario B", 
+      "extent": [
+        468474.57627118647, 
+        3870000.0, 
+        531525.4237288135, 
+        3930000.0
+      ]
+    }, 
+    {
+      "epsg": 32650, 
+      "name": "a  Scenario A", 
+      "extent": [
+        468474.57627118647, 
+        3870000.0, 
+        531525.4237288135, 
+        3930000.0
+      ]
+    }
+  ], 
+  "broken_sources": [], 
+  "papers": [
+    "A06", 
+    "A18"
+  ], 
+  "visual_review": "Required separately", 
+  "relative_paths": true, 
+  "dpi": 300, 
+  "software": "ArcMap 10.2"
+}

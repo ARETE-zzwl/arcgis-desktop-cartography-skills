@@ -1,0 +1,4 @@
+interface:
+  display_name: "ArcGIS Desktop Cartography"
+  short_description: "用 ArcMap 10.2 自动化制作与审查专业 GIS 地图"
+  default_prompt: "Use $arcgis-desktop-cartography to inspect my GIS data and create a publication-ready ArcMap map."

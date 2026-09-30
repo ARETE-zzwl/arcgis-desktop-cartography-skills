@@ -1,0 +1,64 @@
+{
+  "synthetic": true, 
+  "panels": [
+    {
+      "layers": [
+        {
+          "name": "stations", 
+          "file": "panel1_layer1.lyr"
+        }, 
+        {
+          "name": "boundary", 
+          "file": "panel1_layer2.lyr"
+        }, 
+        {
+          "name": "risk", 
+          "file": "panel1_layer3.lyr"
+        }
+      ], 
+      "scale_km": 10, 
+      "palette": null, 
+      "limits": null, 
+      "epsg": 32650, 
+      "label": "Susceptibility index (dimensionless)", 
+      "frame_mm": [
+        18, 
+        33, 
+        165, 
+        137
+      ], 
+      "extent": [
+        463868.6131386861, 
+        3870000.0, 
+        536131.3868613138, 
+        3930000.0
+      ], 
+      "scale_bar_mm": 22.833333333333332
+    }
+  ], 
+  "map_id": "M03", 
+  "reopened_frames": [
+    {
+      "epsg": 32650, 
+      "name": "Susceptibility index (dimensionless)", 
+      "extent": [
+        463868.6131386861, 
+        3870000.0, 
+        536131.3868613138, 
+        3930000.0
+      ]
+    }
+  ], 
+  "broken_sources": [], 
+  "papers": [
+    "A01", 
+    "A13", 
+    "A19", 
+    "A22", 
+    "A25"
+  ], 
+  "visual_review": "Required separately", 
+  "relative_paths": true, 
+  "dpi": 300, 
+  "software": "ArcMap 10.2"
+}

@@ -1,0 +1,1033 @@
+[
+  {
+    "id": "M01",
+    "title": "Terrain and sampling design",
+    "subtitle": "Quiet relief, visible samples and a separate detail scale.",
+    "papers": [
+      "A09",
+      "A15",
+      "A16",
+      "A17",
+      "A23",
+      "A24",
+      "A28"
+    ],
+    "panels": [
+      {
+        "kind": "raster",
+        "data": "dem",
+        "label": "a  Synthetic catchment",
+        "box": [
+          18,
+          33,
+          165,
+          137
+        ],
+        "legend": [
+          205,
+          108,
+          60
+        ],
+        "colors": [
+          [
+            238,
+            242,
+            226
+          ],
+          [
+            181,
+            206,
+            159
+          ],
+          [
+            159,
+            154,
+            102
+          ],
+          [
+            119,
+            95,
+            76
+          ]
+        ],
+        "limits": [
+          0,
+          2000
+        ],
+        "units": "Elevation (m)",
+        "streams": true,
+        "stations": true,
+        "detail_box": true
+      },
+      {
+        "kind": "raster",
+        "data": "dem",
+        "label": "b  Detail",
+        "box": [
+          207,
+          124,
+          70,
+          43
+        ],
+        "legend": [
+          205,
+          108,
+          60
+        ],
+        "colors": [
+          [
+            238,
+            242,
+            226
+          ],
+          [
+            181,
+            206,
+            159
+          ],
+          [
+            159,
+            154,
+            102
+          ],
+          [
+            119,
+            95,
+            76
+          ]
+        ],
+        "limits": [
+          0,
+          2000
+        ],
+        "units": "Elevation (m)",
+        "streams": true,
+        "stations": true,
+        "skip_legend": true,
+        "extent": [
+          491000,
+          3900000,
+          509000,
+          3911000
+        ]
+      }
+    ],
+    "marker_legend": [
+      [
+        "Type A",
+        [
+          16,
+          82,
+          118
+        ],
+        0
+      ],
+      [
+        "Type B",
+        [
+          185,
+          93,
+          25
+        ],
+        1
+      ],
+      [
+        "Type C",
+        [
+          90,
+          47,
+          128
+        ],
+        4
+      ]
+    ],
+    "notes": [
+      "Invented terrain and stations.",
+      "Box marks the detail view.",
+      "Detail has its own scale."
+    ]
+  },
+  {
+    "id": "M02",
+    "title": "Comparable continuous fields",
+    "subtitle": "Shared extent, shared limits, shared units; scenario labels remain explicit.",
+    "papers": [
+      "A02",
+      "A10",
+      "A11",
+      "A26"
+    ],
+    "panels": [
+      {
+        "kind": "raster",
+        "data": "rain",
+        "label": "a  Scenario A",
+        "box": [
+          14,
+          49,
+          124,
+          118
+        ],
+        "legend": [
+          27,
+          38,
+          92
+        ],
+        "colors": [
+          [
+            239,
+            247,
+            249
+          ],
+          [
+            160,
+            211,
+            221
+          ],
+          [
+            63,
+            149,
+            174
+          ],
+          [
+            16,
+            70,
+            108
+          ]
+        ],
+        "limits": [
+          0,
+          1500
+        ],
+        "units": "Illustrative precipitation (mm)"
+      },
+      {
+        "kind": "raster",
+        "data": "rain_late",
+        "label": "b  Scenario B",
+        "box": [
+          159,
+          49,
+          124,
+          118
+        ],
+        "legend": [
+          172,
+          38,
+          92
+        ],
+        "colors": [
+          [
+            239,
+            247,
+            249
+          ],
+          [
+            160,
+            211,
+            221
+          ],
+          [
+            63,
+            149,
+            174
+          ],
+          [
+            16,
+            70,
+            108
+          ]
+        ],
+        "limits": [
+          0,
+          1500
+        ],
+        "units": "Illustrative precipitation (mm)"
+      }
+    ]
+  },
+  {
+    "id": "M03",
+    "title": "Ordered susceptibility classes",
+    "subtitle": "Fixed numerical breaks and independent point symbols.",
+    "papers": [
+      "A01",
+      "A13",
+      "A19",
+      "A22",
+      "A25"
+    ],
+    "panels": [
+      {
+        "kind": "category",
+        "data": "risk",
+        "label": "Susceptibility index (dimensionless)",
+        "box": [
+          18,
+          33,
+          165,
+          137
+        ],
+        "legend": [
+          203,
+          149,
+          70
+        ],
+        "colors": [
+          [
+            254,
+            239,
+            205
+          ],
+          [
+            245,
+            205,
+            148
+          ],
+          [
+            225,
+            160,
+            92
+          ],
+          [
+            187,
+            110,
+            58
+          ],
+          [
+            123,
+            65,
+            42
+          ]
+        ],
+        "labels": [
+          "[0.0, 0.2)",
+          "[0.2, 0.4)",
+          "[0.4, 0.6)",
+          "[0.6, 0.8)",
+          "[0.8, 1.0]"
+        ],
+        "stations": true
+      }
+    ],
+    "marker_legend": [
+      [
+        "Type A",
+        [
+          16,
+          82,
+          118
+        ],
+        0
+      ],
+      [
+        "Type B",
+        [
+          185,
+          93,
+          25
+        ],
+        1
+      ],
+      [
+        "Type C",
+        [
+          90,
+          47,
+          128
+        ],
+        4
+      ]
+    ],
+    "notes": [
+      "Fixed 0.2-wide intervals.",
+      "This index is not calibrated",
+      "event probability or risk."
+    ]
+  },
+  {
+    "id": "M04",
+    "title": "Land-cover comparison",
+    "subtitle": "Stable class colors across scenarios; nominal classes have no numeric gradient.",
+    "papers": [
+      "A06",
+      "A18"
+    ],
+    "panels": [
+      {
+        "kind": "category",
+        "data": "cover",
+        "label": "a  Scenario A",
+        "box": [
+          14,
+          49,
+          124,
+          118
+        ],
+        "legend": [
+          18,
+          39,
+          110
+        ],
+        "colors": [
+          [
+            74,
+            142,
+            178
+          ],
+          [
+            86,
+            135,
+            99
+          ],
+          [
+            225,
+            204,
+            137
+          ],
+          [
+            181,
+            189,
+            183
+          ],
+          [
+            173,
+            101,
+            92
+          ]
+        ],
+        "labels": [
+          "Water",
+          "Woodland",
+          "Cropland",
+          "Open ground",
+          "Built area"
+        ],
+        "horizontal_legend": true
+      },
+      {
+        "kind": "category",
+        "data": "cover_late",
+        "label": "b  Scenario B",
+        "box": [
+          159,
+          49,
+          124,
+          118
+        ],
+        "legend": [
+          163,
+          39,
+          110
+        ],
+        "colors": [
+          [
+            74,
+            142,
+            178
+          ],
+          [
+            86,
+            135,
+            99
+          ],
+          [
+            225,
+            204,
+            137
+          ],
+          [
+            181,
+            189,
+            183
+          ],
+          [
+            173,
+            101,
+            92
+          ]
+        ],
+        "labels": [
+          "Water",
+          "Woodland",
+          "Cropland",
+          "Open ground",
+          "Built area"
+        ],
+        "horizontal_legend": true
+      }
+    ]
+  },
+  {
+    "id": "M05",
+    "title": "Signed change and uncertainty",
+    "subtitle": "A zero-centred diverging scale; sparse dots carry a second meaning.",
+    "papers": [
+      "A03",
+      "A07",
+      "A30"
+    ],
+    "panels": [
+      {
+        "kind": "raster",
+        "data": "anomaly",
+        "label": "Illustrative change",
+        "box": [
+          18,
+          33,
+          165,
+          137
+        ],
+        "legend": [
+          205,
+          137,
+          62
+        ],
+        "colors": [
+          [
+            38,
+            91,
+            131
+          ],
+          [
+            245,
+            244,
+            238
+          ],
+          [
+            180,
+            76,
+            30
+          ]
+        ],
+        "limits": [
+          -300,
+          300
+        ],
+        "units": "Change (mm)",
+        "uncertain": true
+      }
+    ],
+    "notes": [
+      "Dots: illustrative uncertainty",
+      "mask, not significance tests.",
+      "Zero has a neutral light color.",
+      "Negative and positive limits",
+      "are equal in magnitude."
+    ]
+  },
+  {
+    "id": "M06",
+    "title": "Multiple hazards as combinations",
+    "subtitle": "Separate combinations from ordered severity; retain all eight possible codes.",
+    "papers": [
+      "A21"
+    ],
+    "panels": [
+      {
+        "kind": "category",
+        "data": "overlap",
+        "label": "Illustrative hazard overlap",
+        "box": [
+          18,
+          33,
+          165,
+          137
+        ],
+        "legend": [
+          202,
+          158,
+          78
+        ],
+        "colors": [
+          [
+            226,
+            228,
+            228
+          ],
+          [
+            94,
+            153,
+            192
+          ],
+          [
+            224,
+            172,
+            93
+          ],
+          [
+            154,
+            135,
+            194
+          ],
+          [
+            105,
+            167,
+            135
+          ],
+          [
+            174,
+            114,
+            152
+          ],
+          [
+            148,
+            148,
+            74
+          ],
+          [
+            56,
+            64,
+            82
+          ]
+        ],
+        "labels": [
+          "None",
+          "Flood",
+          "Slide",
+          "Flood + slide",
+          "Erosion",
+          "Flood + erosion",
+          "Slide + erosion",
+          "All three"
+        ]
+      }
+    ],
+    "notes": [
+      "Code = F + 2*S + 4*E.",
+      "F, S and E are binary masks.",
+      "Combination is not severity."
+    ]
+  },
+  {
+    "id": "M07",
+    "title": "River network hierarchy",
+    "subtitle": "Line width represents stream class; color reinforces the same order.",
+    "papers": [
+      "A08",
+      "A27"
+    ],
+    "panels": [
+      {
+        "kind": "network",
+        "data": "streams",
+        "label": "Synthetic channel network",
+        "box": [
+          18,
+          33,
+          165,
+          137
+        ],
+        "legend": [
+          202,
+          150,
+          70
+        ],
+        "streams": true
+      }
+    ],
+    "notes": [
+      "Order 1: 0.6 pt",
+      "Order 2: 1.2 pt",
+      "Order 3: 2.1 pt",
+      "Schematic network; no claim",
+      "of a hydrologic extraction."
+    ]
+  },
+  {
+    "id": "M08",
+    "title": "Mixed conditioning factors",
+    "subtitle": "Comparable geography; independent legends for quantities with different units.",
+    "papers": [
+      "A20",
+      "A27",
+      "A29"
+    ],
+    "panels": [
+      {
+        "kind": "raster",
+        "data": "dem",
+        "label": "a  Elevation",
+        "box": [
+          14,
+          109,
+          86,
+          57
+        ],
+        "legend": [
+          104,
+          140,
+          31
+        ],
+        "colors": [
+          [
+            238,
+            242,
+            226
+          ],
+          [
+            181,
+            206,
+            159
+          ],
+          [
+            159,
+            154,
+            102
+          ],
+          [
+            119,
+            95,
+            76
+          ]
+        ],
+        "limits": [
+          0,
+          2000
+        ],
+        "units": "m"
+      },
+      {
+        "kind": "raster",
+        "data": "slope",
+        "label": "b  Slope",
+        "box": [
+          159,
+          109,
+          86,
+          57
+        ],
+        "legend": [
+          249,
+          140,
+          31
+        ],
+        "colors": [
+          [
+            239,
+            247,
+            249
+          ],
+          [
+            160,
+            211,
+            221
+          ],
+          [
+            63,
+            149,
+            174
+          ],
+          [
+            16,
+            70,
+            108
+          ]
+        ],
+        "limits": [
+          0,
+          8
+        ],
+        "units": "degrees"
+      },
+      {
+        "kind": "category",
+        "data": "cover",
+        "label": "c  Cover",
+        "box": [
+          14,
+          40,
+          86,
+          57
+        ],
+        "legend": [
+          104,
+          89,
+          31
+        ],
+        "colors": [
+          [
+            74,
+            142,
+            178
+          ],
+          [
+            86,
+            135,
+            99
+          ],
+          [
+            225,
+            204,
+            137
+          ],
+          [
+            181,
+            189,
+            183
+          ],
+          [
+            173,
+            101,
+            92
+          ]
+        ],
+        "labels": [
+          "Water",
+          "Woodland",
+          "Cropland",
+          "Open ground",
+          "Built area"
+        ]
+      },
+      {
+        "kind": "raster",
+        "data": "rain",
+        "label": "d  Precipitation",
+        "box": [
+          159,
+          40,
+          86,
+          57
+        ],
+        "legend": [
+          249,
+          71,
+          31
+        ],
+        "colors": [
+          [
+            239,
+            247,
+            249
+          ],
+          [
+            160,
+            211,
+            221
+          ],
+          [
+            63,
+            149,
+            174
+          ],
+          [
+            16,
+            70,
+            108
+          ]
+        ],
+        "limits": [
+          0,
+          1500
+        ],
+        "units": "mm"
+      }
+    ]
+  },
+  {
+    "id": "M09",
+    "title": "Cyclic seasonal timing",
+    "subtitle": "Month is a phase: December and January are neighbours, not extremes.",
+    "papers": [
+      "A12"
+    ],
+    "panels": [
+      {
+        "kind": "category",
+        "data": "month",
+        "label": "Illustrative peak month",
+        "box": [
+          18,
+          33,
+          165,
+          137
+        ],
+        "legend": [
+          203,
+          160,
+          75
+        ],
+        "colors": [
+          [
+            82,
+            145,
+            203
+          ],
+          [
+            82,
+            85,
+            203
+          ],
+          [
+            140,
+            82,
+            203
+          ],
+          [
+            201,
+            82,
+            203
+          ],
+          [
+            203,
+            82,
+            145
+          ],
+          [
+            203,
+            82,
+            85
+          ],
+          [
+            203,
+            140,
+            82
+          ],
+          [
+            203,
+            201,
+            82
+          ],
+          [
+            145,
+            203,
+            82
+          ],
+          [
+            85,
+            203,
+            82
+          ],
+          [
+            82,
+            203,
+            140
+          ],
+          [
+            82,
+            203,
+            201
+          ]
+        ],
+        "labels": [
+          "01 Jan",
+          "02 Feb",
+          "03 Mar",
+          "04 Apr",
+          "05 May",
+          "06 Jun",
+          "07 Jul",
+          "08 Aug",
+          "09 Sep",
+          "10 Oct",
+          "11 Nov",
+          "12 Dec"
+        ],
+        "start": 1
+      }
+    ],
+    "notes": [
+      "Synthetic angular phase field.",
+      "No linear average of month IDs."
+    ]
+  },
+  {
+    "id": "M10",
+    "title": "Spatial support and resolution",
+    "subtitle": "Same physical field and color limits; coarser cells keep their support visible.",
+    "papers": [
+      "A04",
+      "A05",
+      "A14"
+    ],
+    "panels": [
+      {
+        "kind": "raster",
+        "data": "rain",
+        "label": "a  300 m synthetic cells",
+        "box": [
+          14,
+          49,
+          124,
+          118
+        ],
+        "legend": [
+          27,
+          38,
+          92
+        ],
+        "colors": [
+          [
+            239,
+            247,
+            249
+          ],
+          [
+            160,
+            211,
+            221
+          ],
+          [
+            63,
+            149,
+            174
+          ],
+          [
+            16,
+            70,
+            108
+          ]
+        ],
+        "limits": [
+          0,
+          1500
+        ],
+        "units": "Illustrative precipitation (mm)"
+      },
+      {
+        "kind": "raster",
+        "data": "rain_coarse",
+        "label": "b  3 km area means",
+        "box": [
+          159,
+          49,
+          124,
+          118
+        ],
+        "legend": [
+          172,
+          38,
+          92
+        ],
+        "colors": [
+          [
+            239,
+            247,
+            249
+          ],
+          [
+            160,
+            211,
+            221
+          ],
+          [
+            63,
+            149,
+            174
+          ],
+          [
+            16,
+            70,
+            108
+          ]
+        ],
+        "limits": [
+          0,
+          1500
+        ],
+        "units": "Illustrative precipitation (mm)"
+      }
+    ]
+  }
+]
