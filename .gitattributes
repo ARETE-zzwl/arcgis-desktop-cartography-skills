@@ -1,0 +1,2 @@
+# Preserve exact release bytes so SHA256SUMS.json also verifies on Windows.
+* -text

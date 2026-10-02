@@ -1,4 +1,5 @@
 {
+  ".gitattributes": "237eda5ea3bb8faf1686bd66efac4a067f5dde9b76a3f2c60df4e407adccd9c4",
   ".gitignore": "5b78f0140a3e96382da582a34e0a0ad1f2d76319d1462d17cfab702f0b7d5bc7",
   "arcgis-desktop-cartography/agents/openai.yaml": "e82a024c1c120faa5d887d9396c1d3b17321ef5ecf49eadd2eddb8ba9b3a3f68",
   "arcgis-desktop-cartography/assets/gallery-specs.json": "a48e7a485024df45f6de00d98894a49d825ea568a0543c252b7df2c71de038ad",
@@ -168,6 +169,6 @@
   "arcgis-desktop-cartography/SKILL.md": "fc5f6c54d8b0d96fdd74d439308e064dc2f9d45b707eef157276d8fe3cb46cae",
   "arcgis-desktop-cartography/THIRD_PARTY_NOTICES.md": "a3b21450d0427d6c3de8fa98134b6eb513b84e603d408eb75d45555dea265ec2",
   "LICENSE": "52bb35130c484586699a91a998419e8f2648343c20778eeaa54ea600cf615c31",
-  "README.md": "00cee9cda13017d38126cac4f921b41d07285d4d4df6966eeb2343c6235b3f15",
+  "README.md": "6cde99b9903b2fd89a6041f6459857eab22b2a827b2b3a246f93cee59aa3d9fc",
   "THIRD_PARTY_NOTICES.md": "a3b21450d0427d6c3de8fa98134b6eb513b84e603d408eb75d45555dea265ec2"
 }
